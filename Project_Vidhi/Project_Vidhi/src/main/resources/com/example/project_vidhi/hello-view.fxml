@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="501.0" prefWidth="513.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_vidhi.HelloController">
+
+    <Label layoutX="37.0" layoutY="1.0" text="Recipe Information:" />
+    <Label fx:id="recipeLabel" layoutX="9.0" layoutY="78.0" prefHeight="404.0" prefWidth="418.0" />
+    <TextField fx:id="searchField" layoutX="9.0" layoutY="33.0" promptText="Enter recipe name..." />
+    <Button layoutX="170.0" layoutY="33.0" onAction="#searchRecipe" text="Search" />
+
+</AnchorPane>
